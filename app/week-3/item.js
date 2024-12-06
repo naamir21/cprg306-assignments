@@ -1,7 +1,7 @@
 export default function Item({name, quantity, category}) {
     return (
         <div>
-            <ul className="hover:text-blue-400 p-2 animate-bounce">
+            <ul className="hover:text-blue-400 p-2">
                 <li>
                     <h2 className="text-xl font-semibold">{name}</h2>
                 </li>
